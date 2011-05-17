@@ -1,0 +1,19 @@
+{
+  "name": "needium-fetchinfo",
+  "description": "Needium UI's Detail Fetcher, acts as an operator for 3rd party API info fetching.",
+  "version": "0.0.0",
+  "repository": {},
+  "author": "Francois Lafortune, @quickredfox (http://about.me/quickredfox)",
+  "main": "./lib/fetchinfo.js",
+  "directories": {
+      "lib":"./lib",
+      "src":"./src"
+  },
+  "dependencies":{
+    "jquery": ">=1.6.0",
+    "jquery-d": ">=0.0.2"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
