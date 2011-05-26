@@ -16,5 +16,8 @@
   },
   "engines": {
       "node": "*"
-  }
+  },
+  "publishConfig": {
+       "registry": "http://needium.iriscouch.com"
+   }
 }
