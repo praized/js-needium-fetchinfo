@@ -3,7 +3,7 @@ spawnOpts   =
     cwd: process.cwd()
     env: process.env
     customFds: [0,1,2]
-coffeeArgs = ['-b', '-o', './lib', '-c', './src']
+coffeeArgs = [ '-o', './lib', '-c', './src']
 
 exports.desc = 'Compiles the .coffee files from /src to /lib into javascript'
 exports.task = ()-> 
