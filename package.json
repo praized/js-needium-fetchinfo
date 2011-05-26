@@ -18,6 +18,6 @@
       "node": "*"
   },
   "publishConfig": {
-       "registry": "http://needium.iriscouch.com"
+       "registry": "http://ndm-registry.iriscouch.com"
    }
 }
